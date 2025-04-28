@@ -87,11 +87,11 @@ export default function Home() {
     }
   }, [router?.query]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setOpenEnquiry(true);
-    }, 2000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setOpenEnquiry(true);
+  //   }, 2000);
+  // }, []);
 
   // console.log(source, "source");
 
