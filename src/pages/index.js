@@ -299,7 +299,7 @@ export default function Home() {
               marginRight: "10px",
             }}
           />{" "}
-          <Typography sx={{ fontSize: "20px" }}>Get Brochure</Typography>
+          <Typography sx={{ fontSize: "20px" }}>Get Brochure.</Typography>
         </Button>
         <Button
           onClick={() => setOpenEnquiry(true)}
