@@ -212,7 +212,7 @@ export default function Home() {
       </Grid>
       <HeroSection setOpenEnquiry={setOpenEnquiry} />
       {/* <VideoSection /> */}
-      <ContactForm2 />
+      {/* <ContactForm2 /> */}
       <Overview setOpenEnquiry={setOpenEnquiry} />
       <WalkThrough />
       <Features />
