@@ -121,7 +121,7 @@ export default function Navbar({ phoneNumber, setOpenEnquiry }) {
                 // border: "1px solid black",
               }}
             >
-              <Image src={LOGO} alt="logo" width={250} height={80} priority />
+              <Image src={LOGO} alt="logo" width={250} height={80} />
             </Box>
 
             <Box
@@ -174,7 +174,6 @@ export default function Navbar({ phoneNumber, setOpenEnquiry }) {
                 Get Brochure
               </Button>
               <Button
-              
                 sx={{
                   borderRadius: "22px",
                   backgroundColor: "#000000",
@@ -208,7 +207,7 @@ export default function Navbar({ phoneNumber, setOpenEnquiry }) {
               alt="logo"
               width={150}
               height={50}
-              priority
+              // priority
               // style={{ border: "1px solid black" }}
             />
             <IconButton

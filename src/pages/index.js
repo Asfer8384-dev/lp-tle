@@ -214,7 +214,7 @@ export default function Home() {
       {/* <VideoSection /> */}
       {/* <ContactForm2 /> */}
       <Overview setOpenEnquiry={setOpenEnquiry} />
-      <WalkThrough />
+      {/* <WalkThrough /> */}
       <Features />
       {/* <PriceTable /> */}
       <Details setOpenEnquiry={setOpenEnquiry} />
@@ -225,7 +225,7 @@ export default function Home() {
       <MasterPlanSection setOpenEnquiry={setOpenEnquiry} />
       <Amenities />
       <Gallery />
-      <AboutUrbanrise />
+      {/* <AboutUrbanrise /> */}
       <ContactForm />
       <FooterSection />
       <Grid
