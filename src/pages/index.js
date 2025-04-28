@@ -210,7 +210,7 @@ export default function Home() {
           Schedule a Site Visit
         </Typography>
       </Grid>
-      <HeroSection setOpenEnquiry={setOpenEnquiry} />
+      {/* <HeroSection setOpenEnquiry={setOpenEnquiry} /> */}
       {/* <VideoSection /> */}
       {/* <ContactForm2 /> */}
       <Overview setOpenEnquiry={setOpenEnquiry} />
